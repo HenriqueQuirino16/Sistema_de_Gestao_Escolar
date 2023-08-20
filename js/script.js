@@ -153,6 +153,7 @@ function alteraConsultas(x) {
 
 
 //Variaveis Inputs formularios
+
 //Form Aluno
 const nomeAlunoVar = document.getElementById("inputName");
 const idadeAluno = document.getElementById("tinputAge");
