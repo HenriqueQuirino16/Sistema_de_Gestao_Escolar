@@ -1,4 +1,4 @@
-//Variaveis Html
+//Variaveis html
 const formAlunos = document.getElementById("form-alunos");
 const formProfessores = document.getElementById("form-professores");
 const formCursos = document.getElementById("form-cursos");
