@@ -627,4 +627,4 @@ function active(x) {
 
 
 
-
+// Editado por HenriqueQuirino16 :)
