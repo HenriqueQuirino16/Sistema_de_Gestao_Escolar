@@ -1,4 +1,4 @@
-//Variaveis html
+//Variaveis HTML
 const formAlunos = document.getElementById("form-alunos");
 const formProfessores = document.getElementById("form-professores");
 const formCursos = document.getElementById("form-cursos");
@@ -154,19 +154,19 @@ function alteraConsultas(x) {
 
 //Variaveis Inputs formularios
 
-//Form Aluno
+// Form Aluno
 const nomeAlunoVar = document.getElementById("inputName");
 const idadeAluno = document.getElementById("tinputAge");
 const emailAluno = document.getElementById("inputEmail");
 const telAluno = document.getElementById("tinputPhone");
 const cursoPretendido = document.getElementById("inputMatricula");
 const periodoAluno = document.getElementById("selectPeriodo");
-//Form Professor
+// Form Professor
 const nomeProfessorVar = document.getElementById("inputNameProfessor");
 const cursoLeciona = document.getElementById("inputLeciona");
 const emailProfessor = document.getElementById("inputEmailProfessor");
 const telProfessor = document.getElementById("inputPhoneProfessor");
-//Form Curso
+// Form Curso
 const nomeCursoVar = document.getElementById("inputCurso");
 const emailCoordenador = document.getElementById("inputEmailCurso");
 const telCoordenador = document.getElementById("tinputPhoneCurso");
@@ -179,6 +179,7 @@ const descricao = document.getElementById("textareaDescricao");
 const alunosArr = [];
 const professoresArr = [];
 const cursosArr = [];
+
 
 /*--------------------Classes------------------------------ */
 
@@ -412,7 +413,6 @@ function mostrarCardConsulta(x) {
     }
 }
 
-
 /*------------------converte .value--------------------- */
 
 function cursoTransform(param) {
@@ -465,6 +465,7 @@ function ativaCheckbox() {
 }//checkbox form cursos
 
 
+
 /*----------------------Validação Formularios----------------------------- */
 function formInvalidoAluno() {
     if (nomeAlunoVar.value == "") {
@@ -509,13 +510,13 @@ function formInvalidoProfessor() {
         label[10].style.color = "#f00";
         emailProfessor.style.border = "1px solid #f00";
         emailProfessor.style.backgroundColor = "#E6CAC8";
-        alert(" Atenção!!! \n Digite o email do Professor.");
+        alert(" Atenção!!! \n Digite o email do Professor(a).");
 
     } else if (telProfessor.value == "") {
         label[11].style.color = "#f00";
         telProfessor.style.border = "1px solid #f00";
         telProfessor.style.backgroundColor = "#E6CAC8";
-        alert(" Atenção!!! \n Digite o telefone do Professor.");
+        alert(" Atenção!!! \n Digite o telefone do Professor(a).");
 
     }
 }
@@ -594,9 +595,6 @@ function resetForms() {
     formulariosResetar[1].reset();
     formulariosResetar[2].reset();
 }
-
-
-
 
 
 
